@@ -48,25 +48,26 @@ uvicorn
   ]
 }
 ```
+
 5. To deploy you have 2 options
     5.1. Option 1: Deploy using Vercel CLI
         - Open your terminal, install npm and deploy vercel
         ```powershell
-            npm i -g vercel
-            vercel .
+        npm i -g vercel
+        vercel .
         ```
     5.2. Option 2: Deploy using Vercel web interface
         - Go to [Vercel](https://vercel.com/).
         - Login or create an account.
-        - Click on "New Project"
-        - Select your GitHub repository with your project
-        - Select Framework option: "Other"
-        - Click on Deploy
+        - Click on "New Project".
+        - Select your GitHub repository with your project.
+        - Select Framework option: "Other".
+        - Click on "Deploy".
 
 6. Possible problem with node version
-    - Go to Vercel web interface
-    - Click on "Settings"
-    - Search "Node.js Version" and change it to 18.x.
+    - Go to Vercel web interface.
+    - Click on "Settings".
+    - Search for "Node.js Version" and change it to 18.x.
     - Finally, repeat your deploy option again.
 
 That's it! You have successfully deployed your FastAPI application using Vercel.
