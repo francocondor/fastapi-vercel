@@ -18,8 +18,8 @@ This project demonstrates how to deploy a FastAPI application on Vercel.
     └── vercel.json
     ```
 
-2. **[`main.py`]() File**:
-    - Your [`api/main.py`](command:_github.copilot.openSymbolFromReferences?%5B%22api%2Fmain.py%22%2C%5B%7B%22uri%22%3A%7B%22%24mid%22%3A1%2C%22fsPath%22%3A%22e%3A%5C%5CPC%5C%5CDocuments%5C%5CProyectos%5C%5CPython%5C%5Cfastapi-vercel%5C%5CREADME.md%22%2C%22_sep%22%3A1%2C%22external%22%3A%22file%3A%2F%2F%2Fe%253A%2FPC%2FDocuments%2FProyectos%2FPython%2Ffastapi-vercel%2FREADME.md%22%2C%22path%22%3A%22%2FE%3A%2FPC%2FDocuments%2FProyectos%2FPython%2Ffastapi-vercel%2FREADME.md%22%2C%22scheme%22%3A%22file%22%7D%2C%22pos%22%3A%7B%22line%22%3A14%2C%22character%22%3A8%7D%7D%5D%5D "Go to definition") file should look like this:
+2. **[`main.py`](./api/main.py "Go to definition") File**:
+    - Your [`api/main.py`](./api/main.py "Go to definition") file should look like this:
     ```python
     from fastapi import FastAPI
 
